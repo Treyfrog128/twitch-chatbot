@@ -1,0 +1,19 @@
+{
+  "name": "twitch-chatbot",
+  "version": "1.0.0",
+  "description": "chatbot for twitch",
+  "main": "bot.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon bot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.16",
+    "tmi.js": "^1.8.5"
+  },
+  "nodemonConfig": {
+    "ignore": ["user-chatters/*"]
+  }
+}
