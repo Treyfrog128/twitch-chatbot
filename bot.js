@@ -5,7 +5,7 @@ const token = require('./token.js')
 const opts = {
   identity: {
     username: 'treyfrogbot',
-    password: 'oauth:' + token.token
+    password: 'oauth:' + token
   },
   channels: [
     'treyfrog128'
